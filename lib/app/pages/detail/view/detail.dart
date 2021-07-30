@@ -4,7 +4,7 @@ import 'package:getx_test/app/pages/detail/controller/detail_controller.dart';
 import 'package:getx_test/app/pages/home/controller/home_controller.dart';
 
 class DetailScreen extends GetView<DetailController> {
-  final homeController = HomeController.instance;
+  final homeController = Get.find<HomeController>();
 
   @override
   Widget build(BuildContext context) {

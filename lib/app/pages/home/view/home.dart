@@ -11,7 +11,7 @@ import 'package:getx_test/translations/message_key.dart';
 
 
 class HomeScreen extends GetView<HomeController>{
-  final apiService = HomeRepository.instance; // ดึงค่าจาก ไฟล์อื่นได้ หมายถึงหน้า อื่นได้
+  final apiService = Get.find<HomeRepository>();// ดึงค่าจาก ไฟล์อื่นได้ หมายถึงหน้า อื่นได้
   @override
   Widget build(BuildContext context) {
 

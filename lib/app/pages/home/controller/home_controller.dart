@@ -5,7 +5,6 @@ import 'package:getx_test/app/core/db/storage_key.dart';
 
 class HomeController extends FullLifeCycleController with FullLifeCycle{
 
-  static var instance = Get.find<HomeController>();
 
   var count = 0.obs;
   RxString name = "".obs;

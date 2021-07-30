@@ -3,8 +3,6 @@ import 'package:getx_test/app/pages/home/controller/home_controller.dart';
 import 'package:getx_test/app/services/http_service.dart';
 
 class HomeRepository {
-  static var instance = Get.find<HomeRepository>();
-  final  home_controller = HomeController.instance;
   late HttpService apiProvider = HttpService();
   int value = 2;
 
