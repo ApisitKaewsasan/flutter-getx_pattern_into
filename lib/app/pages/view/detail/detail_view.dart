@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_test/app/pages/detail/controller/detail_controller.dart';
-import 'package:getx_test/app/pages/home/controller/home_controller.dart';
+import 'package:getx_test/app/pages/controller/detail_controller.dart';
+import 'package:getx_test/app/pages/controller/home_controller.dart';
 
 class DetailScreen extends GetView<DetailController> {
   final homeController = Get.find<HomeController>();

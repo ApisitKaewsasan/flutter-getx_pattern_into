@@ -5,7 +5,7 @@ import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:getx_test/app/core/repository/home_repository.dart';
 import 'package:getx_test/app/core/routes/app_pages.dart';
-import 'package:getx_test/app/pages/home/controller/home_controller.dart';
+import 'package:getx_test/app/pages/controller/home_controller.dart';
 import 'package:getx_test/translations/message_key.dart';
 
 

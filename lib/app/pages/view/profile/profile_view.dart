@@ -1,19 +1,20 @@
 
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_test/app/pages/login/controller/login_controller.dart';
+import 'package:getx_test/app/pages/controller/profile_controller.dart';
 
-class LoginScreen extends GetView<LoginController> {
+class ProfileScreen extends GetView<ProfileController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('LoginView'),
+        title: Text('ProfileView'),
         centerTitle: true,
       ),
       body: Center(
         child: Text(
-          'LoginView is working',
+          'ProfileView is working',
           style: TextStyle(fontSize: 20),
         ),
       ),
