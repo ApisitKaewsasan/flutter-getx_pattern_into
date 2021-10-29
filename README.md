@@ -1,6 +1,10 @@
 # Flutter Getx - pattern
 
-A new Flutter project.
+  - pattern framework for flutter
+  - environment staging , production
+  - Getx State Management
+  - Structured Neatly
+  
 
 ## Getting Started
 
