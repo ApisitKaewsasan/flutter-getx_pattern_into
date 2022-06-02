@@ -1,0 +1,7 @@
+#include "Generated.xcconfig"
+
+
+FLUTTER_TARGET=lib/config/staging.dart
+ASSET_PREFIX=staging
+BUNDLE_NAME=App Stg
+APP_SUFFIX=com.example.flutterGetxPatternIntro.stg

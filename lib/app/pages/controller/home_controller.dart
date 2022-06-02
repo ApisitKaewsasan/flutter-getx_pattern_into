@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:getx_test/app/core/db/storage_key.dart';
 
-class HomeController extends FullLifeCycleController with FullLifeCycle{
+class HomeController extends FullLifeCycleController {
 
 
   var count = 0.obs;
@@ -21,7 +21,7 @@ class HomeController extends FullLifeCycleController with FullLifeCycle{
 
   @override
   void onInit() {
-    name.value = storage.read(testStorage);
+    //name.value = storage.read(testStorage);
     super.onInit();
     print("onInit");
   }
